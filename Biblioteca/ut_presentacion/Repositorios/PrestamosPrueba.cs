@@ -1,5 +1,6 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Implementaciones;
+using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using ut_presentacion.Nucleo;
 
@@ -41,7 +42,7 @@ public class PrestamosPrueba
 
     public bool Modificar()
     {
-        entidad!.Estado = "Modificado";
+        entidad!.IdLibro = 1 ;
         var entry = iConexion!.Entry<Prestamos>(entidad);
         entry.State = EntityState.Modified;
         iConexion!.SaveChanges();

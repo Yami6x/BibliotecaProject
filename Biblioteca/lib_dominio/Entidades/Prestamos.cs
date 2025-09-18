@@ -9,10 +9,8 @@ namespace lib_dominio.Entidades
         public DateTime? FechaDevolucion { get; set; }
         public int IdLibro { get; set; }
         public int IdMiembro { get; set; }
-        public int IdEmpleado { get; set; }
 
         [ForeignKey("IdLibro")] public Libros? _Libro { get; set; }
         [ForeignKey("IdMiembro")] public Miembros? _Miembro { get; set; }
-        [ForeignKey("IdEmpleado")] public Empleados? _Empleado { get; set; }
     }
 }

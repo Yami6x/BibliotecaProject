@@ -1,5 +1,6 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Implementaciones;
+using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using ut_presentacion.Nucleo;
 
@@ -41,7 +42,7 @@ public class ConsumosPrueba
 
     public bool Modificar()
     {
-        entidad!.Cantidad = entidad.Cantidad + 1;
+        entidad!.Cantidad = 1;
         var entry = iConexion!.Entry<Consumos>(entidad);
         entry.State = EntityState.Modified;
         iConexion!.SaveChanges();
@@ -54,5 +55,4 @@ public class ConsumosPrueba
         iConexion!.SaveChanges();
         return true;
     }
-}
 }

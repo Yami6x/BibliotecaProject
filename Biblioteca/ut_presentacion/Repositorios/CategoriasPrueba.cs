@@ -1,5 +1,6 @@
 ﻿using lib_dominio.Entidades;
 using lib_repositorios.Implementaciones;
+using lib_repositorios.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using ut_presentacion.Nucleo;
 
@@ -41,7 +42,7 @@ public class CategoriasPrueba
 
     public bool Modificar()
     {
-        entidad!.Area = "Modificado";
+        entidad!.Descripcion = "Nueva categoria";
         var entry = iConexion!.Entry<Categorias>(entidad);
         entry.State = EntityState.Modified;
         iConexion!.SaveChanges();

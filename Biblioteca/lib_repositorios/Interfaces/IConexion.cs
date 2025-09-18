@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace lib_repositorios.Interfaces
 {
-    interface IConexion
+    public interface IConexion
     {
         string? StringConexion { get; set; }
-
+    
         DbSet<Autores>? Autores { get; set; }
         DbSet<Categorias>? Categorias { get; set; }
         DbSet<Idiomas>? Idiomas { get; set; }

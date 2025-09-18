@@ -19,7 +19,6 @@ namespace ut_presentacion.Nucleo
             var entidad = new Categorias();
             entidad.Nombre = "Pruebas-" + DateTime.Now.ToString("yyyyMMddhhmmss");
             entidad.Descripcion = "Categoría de prueba";
-            entidad.Area = "Ciencia";
             return entidad;
         }
 
@@ -90,7 +89,6 @@ namespace ut_presentacion.Nucleo
             entidad.FechaDevolucion = DateTime.Now.AddDays(5);
             entidad.IdLibro = 1;
             entidad.IdMiembro = 1;
-            entidad.IdEmpleado = 1;
             return entidad;
         }
 
@@ -141,7 +139,7 @@ namespace ut_presentacion.Nucleo
             entidad.Descripcion = "Producto de prueba";
             entidad.Stock = 50;
             entidad.Precio = 5.50m;
-            entidad.ProveedorId = 1;
+            entidad.IdProveedor = 1;
             return entidad;
         }
 
@@ -150,8 +148,8 @@ namespace ut_presentacion.Nucleo
             var entidad = new Consumos();
             entidad.Cantidad = 3;
             entidad.Fecha = DateTime.Now;
-            entidad.ProductoId = 1;
-            entidad.ReservaId = 1;
+            entidad.IdProducto = 1;
+            entidad.IdMiembro = 1;
             return entidad;
         }
     }
