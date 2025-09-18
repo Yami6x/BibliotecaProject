@@ -1,0 +1,88 @@
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\Hotel_Browm\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\Proyecto_Hotel\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak401\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\Isabella Cartagena\OneDrive - INSTITUTO TECNOLOGICO METROPOLITANO - ITM\Escritorio\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\smped\OneDrive\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\salak301\Desktop\HOTEL_BROWN\Proyecto_Hotel\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
