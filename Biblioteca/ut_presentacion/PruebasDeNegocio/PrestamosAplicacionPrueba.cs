@@ -37,6 +37,10 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
             entidad = EntidadesNucleo.Prestamos();
+            if (entidad == null)
+            {
+                throw new ArgumentNullException(nameof(entidad), "La entidad Prestamos no puede ser nula.");
+            }
             iConexion!.Prestamos!.Add(entidad);
             iConexion!.SaveChanges();
             return true;
@@ -44,6 +48,10 @@ namespace ut_presentacion.Repositorios
 
         public bool Modificar()
         {
+            if (entidad == null)
+            {
+                throw new InvalidOperationException("No se puede modificar porque la entidad Prestamos no fue inicializada.");
+            }
             entidad!.IdLibro = 1;
             var entry = iConexion!.Entry<Prestamos>(entidad);
             entry.State = EntityState.Modified;
@@ -53,6 +61,10 @@ namespace ut_presentacion.Repositorios
 
         public bool Borrar()
         {
+            if (entidad == null)
+            {
+                throw new InvalidOperationException("No se puede borrar porque la entidad Prestamos no fue inicializada.");
+            }
             iConexion!.Prestamos!.Remove(entidad!);
             iConexion!.SaveChanges();
             return true;

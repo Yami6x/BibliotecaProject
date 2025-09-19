@@ -112,3 +112,16 @@ C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\bin\Debug\net8.0\lib_dominio.deps.json
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\bin\Debug\net8.0\lib_dominio.dll
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\bin\Debug\net8.0\lib_dominio.pdb
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.AssemblyReference.cache
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfoInputs.cache
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.AssemblyInfo.cs
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.csproj.CoreCompileInputs.cache
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.sourcelink.json
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.dll
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\refint\lib_dominio.dll
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\lib_dominio.pdb
+C:\Users\mauri\Desktop\BibliotecaProject\Biblioteca\lib_dominio\obj\Debug\net8.0\ref\lib_dominio.dll
