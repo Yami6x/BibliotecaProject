@@ -1,12 +1,325 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\salak401\\Desktop\\BibliotecaProject\\Proyecto_Hotel\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\consumosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\consumosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\productosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\productosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\proveedoresaplicacionpruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\proveedoresaplicacionpruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\pagosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\pagosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\multasaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\multasaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\rolesaplicacionpruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\rolesaplicacionpruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\reservasaplicacionpruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\reservasaplicacionpruebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\prestamosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\prestamosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\miembrosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\miembrosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\librosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\librosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\idiomasaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\idiomasaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\empleadosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\empleadosaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\empleados_rolesaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\empleados_rolesaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\categoriasaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\categoriasaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\ut_presentacion\\pruebasdenegocio\\autoresaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE5328F1-B1E2-424F-9C54-9A0C6442AC75}|ut_presentacion\\ut_presentacion.csproj|solutionrelative:ut_presentacion\\pruebasdenegocio\\autoresaplicacionprueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_dominio\\entidades\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\prestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\implementaciones\\empleados_rolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\empleados_rolesaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProveedoresAplicacionPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ProveedoresAplicacionPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\ProveedoresAplicacionPruebas.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ProveedoresAplicacionPruebas.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\ProveedoresAplicacionPruebas.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:23:00.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ProductosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\ProductosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ProductosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\ProductosAplicacionPrueba.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:22:59.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ConsumosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\ConsumosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ConsumosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\ConsumosAplicacionPrueba.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:08:28.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\PagosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\PagosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\PagosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\PagosAplicacionPrueba.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:22:29.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MultasAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\MultasAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\MultasAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\MultasAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\MultasAplicacionPrueba.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:22:27.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservasAplicacionPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ReservasAplicacionPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\ReservasAplicacionPruebas.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\ReservasAplicacionPruebas.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\ReservasAplicacionPruebas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:19:52.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolesAplicacionPruebas.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\RolesAplicacionPruebas.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\RolesAplicacionPruebas.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\RolesAplicacionPruebas.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\RolesAplicacionPruebas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:09:29.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmpleadosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\EmpleadosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\EmpleadosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\EmpleadosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\EmpleadosAplicacionPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:09:18.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Empleados_RolesAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\Empleados_RolesAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\Empleados_RolesAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\Empleados_RolesAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\Empleados_RolesAplicacionPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:09:45.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdiomasAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\IdiomasAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\IdiomasAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\IdiomasAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\IdiomasAplicacionPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:08:44.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrestamosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\PrestamosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\PrestamosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\PrestamosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\PrestamosAplicacionPrueba.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:13:57.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriasAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\CategoriasAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\CategoriasAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\CategoriasAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\CategoriasAplicacionPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:08:07.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibrosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\LibrosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\LibrosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\LibrosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\LibrosAplicacionPrueba.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:08:56.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MiembrosAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\MiembrosAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\MiembrosAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\MiembrosAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\MiembrosAplicacionPrueba.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:09:04.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AutoresAplicacionPrueba.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\AutoresAplicacionPrueba.cs",
+              "RelativeDocumentMoniker": "ut_presentacion\\PruebasDeNegocio\\AutoresAplicacionPrueba.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\ut_presentacion\\PruebasDeNegocio\\AutoresAplicacionPrueba.cs",
+              "RelativeToolTip": "ut_presentacion\\PruebasDeNegocio\\AutoresAplicacionPrueba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:07:11.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Prestamos.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Prestamos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Prestamos.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Prestamos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Prestamos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:19:08.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Empleados_RolesAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\Empleados_RolesAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\Empleados_RolesAplicacion.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\Empleados_RolesAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\Empleados_RolesAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T00:12:22.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
