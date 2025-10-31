@@ -12,52 +12,39 @@ namespace asp_servicios.Controllers
     public class AutoresController : ControllerBase
     {
         private IAutoresAplicacion? iAplicacion = null;
-        //private TokenAplicacion? iAplicacionToken = null;
+       
         private IAutoresAplicacion? iAutoresAplicacion = null;
-        public AutoresController(IAutoresAplicacion? iAplicacion /*IAuditoriasAplicacion? iAutoresAplicacion/*, TokenAplicacion iAplicacionToken*/)
+        public AutoresController(IAutoresAplicacion? iAplicacion)
         {
             this.iAplicacion = iAplicacion;
-           /* this.iAutoresAplicacion = iAutoresAplicacion;*/
-            //this.iAplicacionToken = iAplicacionToken;
+           
         }
 
         private Dictionary<string, object> ObtenerDatos()
         {
-            // Nota: Esta forma de leer el cuerpo del Request de manera síncrona puede
-            // tener implicaciones de rendimiento en un entorno real. Se mantiene
-            // por consistencia con el código original.
+            
             var datos = new StreamReader(Request.Body).ReadToEnd().ToString();
             if (string.IsNullOrEmpty(datos))
                 datos = "{}";
             return JsonConversor.ConvertirAObjeto(datos);
         }
 
-        // OPERACIONES CRUD ESTÁNDAR (Mantenidas y adaptadas a Consumos)
 
-        [HttpPost]
-        public string Listar()
+        [HttpPost("listar")]
+        public ActionResult<List<Autores>> Listar()
         {
-            var respuesta = new Dictionary<string, object>();
             try
             {
-                var datos = ObtenerDatos();
-                //if (!iAplicacionToken!.Validar(datos))
-                //{
-                //    respuesta["Error"] = "lbNoAutenticacion";
-                //    return JsonConversor.ConvertirAString(respuesta);
-                //}
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
-
-                respuesta["Entidades"] = this.iAplicacion!.Listar();
-                respuesta["Respuesta"] = "OK";
-                respuesta["Fecha"] = DateTime.Now.ToString();
-                return JsonConversor.ConvertirAString(respuesta);
+                var autores = this.iAplicacion!.Listar();
+                return Ok(autores);
             }
             catch (Exception ex)
             {
-                respuesta["Error"] = ex.Message.ToString();
-                respuesta["Respuesta"] = "Error";
-                return JsonConversor.ConvertirAString(respuesta);
+                return StatusCode(500, new
+                {
+                    mensaje = "Error al listar los autores.",
+                    detalle = ex.Message
+                });
             }
         }
 
@@ -68,30 +55,14 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                /*if (!tokenController!.Validate(datos))
-                {
-                    respuesta["Error"] = "lbNoAutenticacion";
-                    return JsonConversor.ConvertirAString(respuesta);
-                }*/
+               
                 var entidad = JsonConversor.ConvertirAObjeto<Autores>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
                 entidad = this.iAplicacion!.Guardar(entidad);
 
-                //var registroAuditoria = new Auditorías
-                //{
-                //    // Empleado: Asume que 0 es un valor temporal si no tienes el ID del usuario actual.
-                //    Empleado = 0,
-                //    Accion = "CREAR",
-                //    Descripcion = "Nuevo empleado agregado al sistema.",
-                //    Previo = null,
-                //    Nuevo = JsonConversor.ConvertirAString(entidad!),
-                //    Fecha = DateTime.Now,
-                //    Tabla = "Consumos"
-                //};
-
-                //this.iAuditoriasAplicacion!.Guardar(registroAuditoria);
+                
 
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";

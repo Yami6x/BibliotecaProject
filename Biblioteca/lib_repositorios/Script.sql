@@ -165,7 +165,39 @@ CREATE TABLE Consumos (
     FOREIGN KEY (IdProducto) REFERENCES Productos(Id),
     FOREIGN KEY (IdMiembro) REFERENCES Miembros(Id)
 );
+GO
 
+CREATE TABLE Permisos (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL,
+    Descripcion NVARCHAR(255)
+);
+GO
+
+CREATE TABLE Usuarios (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Usuario NVARCHAR(50) NOT NULL UNIQUE,
+    Contrasena NVARCHAR(255) NOT NULL,
+    Correo NVARCHAR(100) NULL,
+    RolId INT NOT NULL,
+    Estado BIT DEFAULT 1,
+    FechaRegistro DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_Usuarios_Roles FOREIGN KEY (RolId) REFERENCES Roles(Id)
+);
+GO
+
+CREATE TABLE Auditorias (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    UsuarioId INT,
+    Accion NVARCHAR(50),
+    Descripcion NVARCHAR(255),
+    Tabla NVARCHAR(50),
+    Previo NVARCHAR(MAX),
+    Nuevo NVARCHAR(MAX),
+    Fecha DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_Auditorias_Usuarios FOREIGN KEY (UsuarioId) REFERENCES Usuarios(Id)
+);
 GO
 
 INSERT INTO Autores (Nombre, Apellido, Nacionalidad, FechaNacimiento) VALUES
@@ -276,3 +308,33 @@ INSERT INTO Consumos (IdProducto, IdMiembro, Cantidad, Fecha) VALUES
 (4, 4, 3, '2023-08-01'),
 (5, 5, 1, '2023-09-01');
 GO
+
+
+INSERT INTO Usuarios (Nombre, Usuario, Contrasena, Correo, RolId, Estado)
+VALUES
+('Administrador General', 'admin', '12345', 'admin@biblioteca.com', 1, 1),
+('Usuario Normal', 'usuario', '12345', 'usuario@biblioteca.com', 2, 1),
+('Usuario Ventas', 'ventas', '12345', 'ventas@biblioteca.com', 3, 1);
+GO
+
+
+INSERT INTO Permisos (Nombre, Descripcion)
+VALUES
+('Listar', 'Permite listar los datos disponibles en el sistema'),
+('Personas', 'Permite ver y gestionar la información de personas');
+GO
+
+
+INSERT INTO Auditorias (UsuarioId, Accion, Descripcion, Tabla, Previo, Nuevo, Fecha)
+VALUES
+(1, 'CREAR', 'El administrador creó un nuevo libro en la biblioteca.', 'Libros', NULL, '{"Titulo":"Cien Años de Soledad"}', GETDATE()),
+(2, 'MODIFICAR', 'El usuario normal actualizó su perfil.', 'Usuarios', '{"Nombre":"Usuario Normal"}', '{"Nombre":"Usuario Actualizado"}', GETDATE()),
+(3, 'BORRAR', 'El usuario de ventas eliminó un producto agotado.', 'Productos', '{"Id":5,"Nombre":"Marcadores"}', NULL, GETDATE());
+GO
+
+
+
+
+
+
+
