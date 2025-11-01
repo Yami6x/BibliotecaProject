@@ -7,24 +7,32 @@
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_servicios\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\implementaciones\\autoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\autoresaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_dominio\\entidades\\autores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\autores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\implementaciones\\permisosaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\permisosaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\interfaces\\ipermisosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ipermisosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_dominio\\entidades\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_servicios\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -66,71 +74,97 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-31T06:37:44.349Z",
+              "WhenOpened": "2025-11-01T05:12:14.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Startup.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Startup.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Startup.cs",
-              "RelativeToolTip": "asp_servicios\\Startup.cs",
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Nucleo\\Configuracion.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Nucleo\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Nucleo\\Configuracion.cs",
+              "RelativeToolTip": "asp_servicios\\Nucleo\\Configuracion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T06:12:21.886Z",
+              "WhenOpened": "2025-11-01T04:40:57.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Script.sql ",
               "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Script.sql",
               "RelativeDocumentMoniker": "lib_repositorios\\Script.sql",
               "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Script.sql",
               "RelativeToolTip": "lib_repositorios\\Script.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-31T05:59:20.13Z",
+              "WhenOpened": "2025-11-01T04:24:51.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Autores.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Autores.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Autores.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Autores.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Autores.cs",
+              "Title": "Permisos.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Permisos.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Permisos.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Permisos.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Permisos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T05:58:28.988Z",
+              "WhenOpened": "2025-11-01T04:19:50.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Roles.cs",
+              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Roles.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Roles.cs",
+              "RelativeToolTip": "lib_dominio\\Entidades\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T04:19:43.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPermisosAplicacion.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
+              "RelativeToolTip": "lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:59:08.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AutoresAplicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\AutoresAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\AutoresAplicacion.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\AutoresAplicacion.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\AutoresAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAxAAAAAAAAAA==",
+              "Title": "PermisosAplicaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
+              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
+              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T05:52:27.717Z",
+              "WhenOpened": "2025-11-01T03:58:58.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutoresController.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Controllers\\AutoresController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\AutoresController.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Controllers\\AutoresController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\AutoresController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvyUAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PermisosController.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Controllers\\PermisosController.cs",
+              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PermisosController.cs",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Controllers\\PermisosController.cs",
+              "RelativeToolTip": "asp_servicios\\Controllers\\PermisosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T15:32:28.562Z",
+              "WhenOpened": "2025-11-01T03:55:10.149Z",
               "EditorCaption": ""
             }
           ]

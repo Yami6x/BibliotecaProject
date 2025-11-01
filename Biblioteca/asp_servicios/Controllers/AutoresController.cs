@@ -1,9 +1,9 @@
-﻿using asp_servicios.Nucleo;
-using lib_repositorios.Interfaces;
+﻿using Microsoft.AspNetCore.Mvc;
 using lib_dominio.Entidades;
-using lib_dominio.Nucleo;
-using Microsoft.AspNetCore.Mvc;
+using lib_repositorios.Interfaces;
 using lib_repositorios.Implementaciones;
+using asp_servicios.Nucleo;
+using lib_dominio.Nucleo;
 
 namespace asp_servicios.Controllers
 {
@@ -11,43 +11,45 @@ namespace asp_servicios.Controllers
     [Route("[controller]/[action]")]
     public class AutoresController : ControllerBase
     {
-        private IAutoresAplicacion? iAplicacion = null;
-       
-        private IAutoresAplicacion? iAutoresAplicacion = null;
-        public AutoresController(IAutoresAplicacion? iAplicacion)
+        private readonly IAutoresAplicacion _autoresAplicacion;
+
+        public AutoresController(IAutoresAplicacion autoresAplicacion)
         {
-            this.iAplicacion = iAplicacion;
-           
+            _autoresAplicacion = autoresAplicacion;
         }
 
+       
         private Dictionary<string, object> ObtenerDatos()
         {
-            
             var datos = new StreamReader(Request.Body).ReadToEnd().ToString();
             if (string.IsNullOrEmpty(datos))
                 datos = "{}";
             return JsonConversor.ConvertirAObjeto(datos);
         }
 
-
-        [HttpPost("listar")]
-        public ActionResult<List<Autores>> Listar()
+        
+        [HttpPost]
+        public string Listar()
         {
+            var respuesta = new Dictionary<string, object>();
             try
             {
-                var autores = this.iAplicacion!.Listar();
-                return Ok(autores);
+                _autoresAplicacion.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                var lista = _autoresAplicacion.Listar();
+
+                respuesta["Entidades"] = lista;
+                respuesta["Respuesta"] = "OK";
+                respuesta["Fecha"] = DateTime.Now.ToString();
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new
-                {
-                    mensaje = "Error al listar los autores.",
-                    detalle = ex.Message
-                });
+                respuesta["Respuesta"] = "Error";
+                respuesta["Error"] = ex.Message;
             }
+            return JsonConversor.ConvertirAString(respuesta);
         }
 
+        
         [HttpPost]
         public string Guardar()
         {
@@ -55,28 +57,25 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-               
                 var entidad = JsonConversor.ConvertirAObjeto<Autores>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                entidad = this.iAplicacion!.Guardar(entidad);
+                _autoresAplicacion.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                var nuevoAutor = _autoresAplicacion.Guardar(entidad);
 
-                
-
-                respuesta["Entidad"] = entidad!;
+                respuesta["Entidad"] = nuevoAutor;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
-                return JsonConversor.ConvertirAString(respuesta);
             }
             catch (Exception ex)
             {
-                respuesta["Error"] = ex.Message.ToString();
                 respuesta["Respuesta"] = "Error";
-                return JsonConversor.ConvertirAString(respuesta);
+                respuesta["Error"] = ex.Message;
             }
+            return JsonConversor.ConvertirAString(respuesta);
         }
 
+     
         [HttpPost]
         public string Modificar()
         {
@@ -84,27 +83,22 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                /*if (!tokenController!.Validate(datos))
-                {
-                    respuesta["Error"] = "lbNoAutenticacion";
-                    return JsonConversor.ConvertirAString(respuesta);
-                }*/
                 var entidad = JsonConversor.ConvertirAObjeto<Autores>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                entidad = this.iAplicacion!.Modificar(entidad);
-                respuesta["Entidad"] = entidad!;
+                _autoresAplicacion.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                var actualizado = _autoresAplicacion.Modificar(entidad);
+
+                respuesta["Entidad"] = actualizado;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
-                return JsonConversor.ConvertirAString(respuesta);
             }
             catch (Exception ex)
             {
-                respuesta["Error"] = ex.Message.ToString();
                 respuesta["Respuesta"] = "Error";
-                return JsonConversor.ConvertirAString(respuesta);
+                respuesta["Error"] = ex.Message;
             }
+            return JsonConversor.ConvertirAString(respuesta);
         }
 
         [HttpPost]
@@ -114,28 +108,22 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                /*if (!tokenController!.Validate(datos))
-                {
-                    respuesta["Error"] = "lbNoAutenticacion";
-                    return JsonConversor.ConvertirAString(respuesta);
-                }*/
                 var entidad = JsonConversor.ConvertirAObjeto<Autores>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
+                _autoresAplicacion.Configurar(Configuracion.ObtenerValor("StringConexion"));
+                var eliminado = _autoresAplicacion.Borrar(entidad);
 
-                entidad = this.iAplicacion!.Borrar(entidad);
-                respuesta["Entidad"] = entidad!;
+                respuesta["Entidad"] = eliminado;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
-                return JsonConversor.ConvertirAString(respuesta);
             }
             catch (Exception ex)
             {
-                respuesta["Error"] = ex.Message.ToString();
                 respuesta["Respuesta"] = "Error";
-                return JsonConversor.ConvertirAString(respuesta);
+                respuesta["Error"] = ex.Message;
             }
+            return JsonConversor.ConvertirAString(respuesta);
         }
     }
 }

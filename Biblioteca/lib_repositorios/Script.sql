@@ -167,10 +167,16 @@ CREATE TABLE Consumos (
 );
 GO
 
+
+
 CREATE TABLE Permisos (
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Nombre NVARCHAR(50) NOT NULL,
-    Descripcion NVARCHAR(255)
+    Id INT  IDENTITY(1,1) PRIMARY KEY,    
+    Nombre  NVARCHAR(50) NOT NULL,    
+    Descripcion NVARCHAR(150) NULL,    
+    RolId  INT NULL,
+    CONSTRAINT FK_Permisos_Roles FOREIGN KEY (RolId)
+        REFERENCES Roles(Id)
+        
 );
 GO
 
@@ -178,7 +184,7 @@ CREATE TABLE Usuarios (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Nombre NVARCHAR(100) NOT NULL,
     Usuario NVARCHAR(50) NOT NULL UNIQUE,
-    Contrasena NVARCHAR(255) NOT NULL,
+    Contrasena NVARCHAR(250) NOT NULL,
     Correo NVARCHAR(100) NULL,
     RolId INT NOT NULL,
     Estado BIT DEFAULT 1,
@@ -191,7 +197,7 @@ CREATE TABLE Auditorias (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     UsuarioId INT,
     Accion NVARCHAR(50),
-    Descripcion NVARCHAR(255),
+    Descripcion NVARCHAR(250),
     Tabla NVARCHAR(50),
     Previo NVARCHAR(MAX),
     Nuevo NVARCHAR(MAX),
@@ -318,10 +324,10 @@ VALUES
 GO
 
 
-INSERT INTO Permisos (Nombre, Descripcion)
+INSERT INTO Permisos (Nombre, Descripcion, RolId)
 VALUES
-('Listar', 'Permite listar los datos disponibles en el sistema'),
-('Personas', 'Permite ver y gestionar la información de personas');
+('Listar', 'Permite listar los datos disponibles en el sistema', null),
+('Personas', 'Permite ver y gestionar la información de personas', null);
 GO
 
 

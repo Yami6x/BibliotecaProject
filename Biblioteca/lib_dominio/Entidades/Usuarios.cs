@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace lib_dominio.Entidades
+﻿namespace lib_dominio.Entidades
 {
     public class Usuarios
     {
         public int Id { get; set; }
 
         
-        public string Nombre { get; set; } = string.Empty;       
-        public string Usuario { get; set; } = string.Empty;      
-        public string Contrasena { get; set; } = string.Empty;   
+        public string? Nombre { get; set; }        
+        public string? Usuario { get; set; }
+        public string? Contrasena { get; set; }   
         public string? Correo { get; set; }                      
         
         public int RolId { get; set; }

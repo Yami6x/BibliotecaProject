@@ -2,33 +2,30 @@
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
 using Microsoft.AspNetCore.Mvc;
-using lib_repositorios.Implementaciones; // Asegúrate de que esta ruta sea correcta para EmpleadosAplicacion
+using lib_repositorios.Interfaces; 
 
 namespace asp_servicios.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
-    public class EmpleadosController : ControllerBase
+    public class UsuariosController : ControllerBase
     {
-        private IEmpleadosAplicacion? iAplicacion = null;
+        private IUsuariosAplicacion? iAplicacion = null;
 
-        public EmpleadosController(IEmpleadosAplicacion? iAplicacion)
+        public UsuariosController(IUsuariosAplicacion? iAplicacion)
         {
             this.iAplicacion = iAplicacion;
         }
 
         private Dictionary<string, object> ObtenerDatos()
         {
-            // Lee el cuerpo de la petición HTTP
             var datos = new StreamReader(Request.Body).ReadToEnd().ToString();
             if (string.IsNullOrEmpty(datos))
                 datos = "{}";
             return JsonConversor.ConvertirAObjeto(datos);
         }
 
-        // -------------------------------------------------------------------
-        // 1. READ (Listar)
-        // -------------------------------------------------------------------
+       
         [HttpPost]
         public string Listar()
         {
@@ -36,11 +33,9 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-                // (Validaciones de Token omitidas por ahora)
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                // Llama al método Listar
                 respuesta["Entidades"] = this.iAplicacion!.Listar();
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -54,9 +49,7 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 2. READ (Buscar)
-        // -------------------------------------------------------------------
+        
         [HttpPost]
         public string Buscar()
         {
@@ -65,13 +58,11 @@ namespace asp_servicios.Controllers
             {
                 var datos = ObtenerDatos();
 
-                // Extrae la entidad Empleados del JSON para usarla como filtro
-                var entidad = JsonConversor.ConvertirAObjeto<Empleados>(
+                var entidad = JsonConversor.ConvertirAObjeto<Usuarios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                // Llama al método Buscar. El filtro en Aplicación es por Nombre o Apellido.
                 respuesta["Entidades"] = this.iAplicacion!.Buscar(entidad);
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -85,9 +76,7 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 3. CREATE (Guardar)
-        // -------------------------------------------------------------------
+       
         [HttpPost]
         public string Guardar()
         {
@@ -96,16 +85,13 @@ namespace asp_servicios.Controllers
             {
                 var datos = ObtenerDatos();
 
-                // Extrae la entidad Empleados
-                var entidad = JsonConversor.ConvertirAObjeto<Empleados>(
+                var entidad = JsonConversor.ConvertirAObjeto<Usuarios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                // Llama a Guardar. La aplicación espera Id = 0.
                 entidad = this.iAplicacion!.Guardar(entidad);
 
-                // Devuelve la entidad con el nuevo Id generado por la DB.
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -119,9 +105,7 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 4. UPDATE (Modificar)
-        // -------------------------------------------------------------------
+     
         [HttpPost]
         public string Modificar()
         {
@@ -130,16 +114,13 @@ namespace asp_servicios.Controllers
             {
                 var datos = ObtenerDatos();
 
-                // Extrae la entidad Empleados
-                var entidad = JsonConversor.ConvertirAObjeto<Empleados>(
+                var entidad = JsonConversor.ConvertirAObjeto<Usuarios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                // Llama a Modificar. La aplicación espera Id != 0.
                 entidad = this.iAplicacion!.Modificar(entidad);
 
-                // Devuelve la entidad modificada.
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -153,9 +134,7 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 5. DELETE (Borrar)
-        // -------------------------------------------------------------------
+      
         [HttpPost]
         public string Borrar()
         {
@@ -164,16 +143,13 @@ namespace asp_servicios.Controllers
             {
                 var datos = ObtenerDatos();
 
-                // Extrae la entidad Empleados
-                var entidad = JsonConversor.ConvertirAObjeto<Empleados>(
+                var entidad = JsonConversor.ConvertirAObjeto<Usuarios>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
 
                 this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                // Llama a Borrar. La aplicación espera Id != 0.
                 entidad = this.iAplicacion!.Borrar(entidad);
 
-                // Devuelve la entidad borrada.
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();

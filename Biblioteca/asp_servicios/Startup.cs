@@ -38,9 +38,11 @@ namespace asp_servicios
             services.AddScoped<IProductosAplicacion, ProductosAplicacion>();
             services.AddScoped<IProveedoresAplicacion, ProveedoresAplicacion>();
             services.AddScoped<IReservasAplicacion, ReservasAplicacion>();
-           
+            services.AddScoped<IUsuariosAplicacion, UsuariosAplicacion>();
+            services.AddScoped<IPermisosAplicacion, PermisosAplicacion>();
 
-           
+
+
             services.AddCors(o => o.AddDefaultPolicy(b => b.AllowAnyOrigin()));
         }
         public void Configure(WebApplication app, IWebHostEnvironment env)
