@@ -57,11 +57,11 @@ namespace lib_repositorios.Implementaciones
             return this.IConexion!.Autores!.Take(20).ToList();
         }
 
-        public List<Autores> Buscar(Autores? entidad)
+        public List<Autores> PorNombre(Autores? entidad)
         {
             return this.IConexion!.Autores!
-                .Where(x => x.Nombre!.Contains(entidad!.Nombre!)
-                         || x.Apellido!.Contains(entidad!.Apellido!))
+                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
+                .Take(20)
                 .ToList();
         }
     }

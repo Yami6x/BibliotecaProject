@@ -11,8 +11,7 @@ namespace asp_servicios
             Configuration = configuration;
         }
         public static IConfiguration? Configuration { set; get; }
-        public void ConfigureServices(WebApplicationBuilder builder, IServiceCollection
-       services)
+        public void ConfigureServices(WebApplicationBuilder builder, IServiceCollection services)
         {
             services.Configure<KestrelServerOptions>(x => {
                 x.AllowSynchronousIO = true;
