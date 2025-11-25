@@ -15,6 +15,7 @@ namespace lib_repositorios.Implementaciones
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
         public DbSet<Autores>? Autores { get; set; }
+        public DbSet<Auditorias>? Auditorias { get; set; }
         public DbSet<Categorias>? Categorias { get; set; }
         public DbSet<Idiomas>? Idiomas { get; set; }
         public DbSet<Libros>? Libros { get; set; }
@@ -31,5 +32,27 @@ namespace lib_repositorios.Implementaciones
         public DbSet<Consumos>? Consumos { get; set; }
         public DbSet<Usuarios>? Usuarios { get; set; }
         public DbSet<Permisos>? Permisos { get; set; }
+        public DbSet<RolesPermisos>? RolesPermisos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+           
+            modelBuilder.Entity<RolesPermisos>()
+                .HasKey(rp => new { rp.RolID, rp.PermisoID });
+
+            
+            modelBuilder.Entity<RolesPermisos>()
+                .HasOne<Roles>() 
+                .WithMany()       
+                .HasForeignKey(rp => rp.RolID); 
+
+            modelBuilder.Entity<RolesPermisos>()
+                .HasOne<Permisos>() 
+                .WithMany()          
+                .HasForeignKey(rp => rp.PermisoID); 
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
+
 }

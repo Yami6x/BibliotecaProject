@@ -35,7 +35,7 @@ public class LibrosPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Libros();
-        iConexion!.Libros!.Add(entidad);
+        iConexion!.Libros!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

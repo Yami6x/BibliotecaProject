@@ -41,7 +41,7 @@ namespace lib_repositorios.Implementaciones
 
         public List<Libros> Listar() => this.IConexion!.Libros!.Take(20).ToList();
 
-        public List<Libros> Buscar(Libros? entidad) =>
+        public List<Libros> PorTitulo(Libros? entidad) =>
             this.IConexion!.Libros!
             .Where(x => x.Titulo!.Contains(entidad!.Titulo!))
             .ToList();

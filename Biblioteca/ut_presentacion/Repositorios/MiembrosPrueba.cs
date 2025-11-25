@@ -35,7 +35,7 @@ public class MiembrosPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Miembros();
-        iConexion!.Miembros!.Add(entidad);
+        iConexion!.Miembros!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

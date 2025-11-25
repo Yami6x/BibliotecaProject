@@ -4,7 +4,7 @@ public interface IRolesAplicacion
 {
     void Configurar(string StringConexion);
     List<Roles> Listar();
-    List<Roles> Buscar(Roles? entidad);
+    List<Roles> PorNombre(Roles? entidad);
     Roles? Guardar(Roles? entidad);
     Roles? Modificar(Roles? entidad);
     Roles? Borrar(Roles? entidad);

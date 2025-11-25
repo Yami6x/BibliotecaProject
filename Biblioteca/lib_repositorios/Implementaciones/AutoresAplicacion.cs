@@ -54,14 +54,13 @@ namespace lib_repositorios.Implementaciones
 
         public List<Autores> Listar()
         {
-            return this.IConexion!.Autores!.Take(20).ToList();
+            return this.IConexion!.Autores!.Take(50).ToList();
         }
 
-        public List<Autores> Buscar(Autores? entidad)
+        public List<Autores> PorNombre(Autores? entidad)
         {
             return this.IConexion!.Autores!
-                .Where(x => x.Nombre!.Contains(entidad!.Nombre!)
-                         || x.Apellido!.Contains(entidad!.Apellido!))
+                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
                 .ToList();
         }
     }

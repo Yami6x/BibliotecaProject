@@ -10,6 +10,7 @@ namespace lib_repositorios.Interfaces
         string? StringConexion { get; set; }
     
         DbSet<Autores>? Autores { get; set; }
+        DbSet<Auditorias>? Auditorias { get; set; }
         DbSet<Categorias>? Categorias { get; set; }
         DbSet<Idiomas>? Idiomas { get; set; }
         DbSet<Libros>? Libros { get; set; }
@@ -26,8 +27,10 @@ namespace lib_repositorios.Interfaces
         DbSet<Consumos>? Consumos { get; set; }
         DbSet<Usuarios>? Usuarios { get; set; }
         DbSet<Permisos>? Permisos { get; set; }
+        DbSet<RolesPermisos>? RolesPermisos { get; set; }
 
 
+      
         EntityEntry<T> Entry<T>(T entity) where T : class;
         int SaveChanges();
     }

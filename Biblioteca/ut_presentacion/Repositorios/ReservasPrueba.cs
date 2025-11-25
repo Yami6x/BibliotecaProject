@@ -35,7 +35,7 @@ public class ReservasPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Reservas();
-        iConexion!.Reservas!.Add(entidad);
+        iConexion!.Reservas!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

@@ -41,9 +41,16 @@ namespace lib_repositorios.Implementaciones
 
         public List<Idiomas> Listar() => this.IConexion!.Idiomas!.Take(20).ToList();
 
-        public List<Idiomas> Buscar(Idiomas? entidad) =>
-            this.IConexion!.Idiomas!
-            .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
-            .ToList();
+        public List<Idiomas> PorCodigo(Idiomas? entidad)
+        {
+            if (string.IsNullOrEmpty(entidad!.Nombre))
+            {
+                return this.IConexion!.Idiomas!.ToList();
+            }
+
+            return this.IConexion!.Idiomas!
+                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
+                .ToList();
+        }
     }
 }

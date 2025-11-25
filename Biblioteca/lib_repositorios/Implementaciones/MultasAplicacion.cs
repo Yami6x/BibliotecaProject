@@ -41,9 +41,16 @@ namespace lib_repositorios.Implementaciones
 
         public List<Multas> Listar() => this.IConexion!.Multas!.Take(20).ToList();
 
-        public List<Multas> Buscar(Multas? entidad) =>
-            this.IConexion!.Multas!
-            .Where(x => x.Estado!.Contains(entidad!.Estado!))
-            .ToList();
+        public List<Multas> PorIdPrestamo(Multas? entidad)
+        {
+            if (string.IsNullOrEmpty(entidad!.Estado))
+            {
+                return this.IConexion!.Multas!.ToList();
+            }
+
+            return this.IConexion!.Multas!
+                .Where(x => x.Estado!.Contains(entidad!.Estado!))
+                .ToList();
+        }
     }
 }

@@ -35,7 +35,7 @@ public class ConsumosPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Consumos();
-        iConexion!.Consumos!.Add(entidad);
+        iConexion!.Consumos!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

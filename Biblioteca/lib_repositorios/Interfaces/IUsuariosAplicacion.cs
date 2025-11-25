@@ -7,9 +7,10 @@ namespace lib_repositorios.Interfaces
     {
         void Configurar(string StringConexion);
         List<Usuarios> Listar();
-        List<Usuarios> Buscar(Usuarios? entidad);
+        List<Usuarios> PorTipoUsuario(Usuarios? entidad);
         Usuarios? Guardar(Usuarios? entidad);
         Usuarios? Modificar(Usuarios? entidad);
         Usuarios? Borrar(Usuarios? entidad);
+        Usuarios? ValidarUsuario(Usuarios entidad);
     }
 }

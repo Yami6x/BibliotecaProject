@@ -41,10 +41,16 @@ namespace lib_repositorios.Implementaciones
 
         public List<Consumos> Listar() => this.IConexion!.Consumos!.Take(20).ToList();
 
-        public List<Consumos> Buscar(Consumos? entidad) =>
-            this.IConexion!.Consumos!
-            .Where(x => x.IdProducto == entidad!.IdProducto
-                     || x.IdMiembro == entidad!.IdMiembro)
-            .ToList();
+        public List<Consumos> PorIdProducto(Consumos? entidad)
+        {
+            if (entidad!.IdProducto == 0)
+            {
+                return this.IConexion!.Consumos!.ToList();
+            }
+
+            return this.IConexion!.Consumos!
+                .Where(x => x.IdProducto == entidad!.IdProducto)
+                .ToList();
+        }
     }
 }

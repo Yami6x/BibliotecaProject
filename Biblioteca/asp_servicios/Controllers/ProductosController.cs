@@ -1,8 +1,10 @@
 ﻿using asp_servicios.Nucleo;
 using lib_dominio.Entidades;
 using lib_dominio.Nucleo;
+using lib_repositorios.Implementaciones;
+using lib_repositorios.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using lib_repositorios.Implementaciones; // Asegúrate de que esta ruta sea correcta para ProductosAplicacion
+using System.Diagnostics.Metrics;
 
 namespace asp_servicios.Controllers
 {
@@ -10,25 +12,23 @@ namespace asp_servicios.Controllers
     [Route("[controller]/[action]")]
     public class ProductosController : ControllerBase
     {
-        private IProductosAplicacion? iAplicacion = null;
+        private readonly IProductosAplicacion? _ProductosAplicacion = null;
+        private readonly TokenAplicacion? iAplicacionToken = null;
 
-        public ProductosController(IProductosAplicacion? iAplicacion)
+        public ProductosController(IProductosAplicacion _ProductosAplicacion, TokenAplicacion iAplicacionToken)
         {
-            this.iAplicacion = iAplicacion;
+            this._ProductosAplicacion = _ProductosAplicacion;
+            this.iAplicacionToken = iAplicacionToken;
         }
-
         private Dictionary<string, object> ObtenerDatos()
         {
-            // Lee el cuerpo de la petición HTTP
             var datos = new StreamReader(Request.Body).ReadToEnd().ToString();
             if (string.IsNullOrEmpty(datos))
                 datos = "{}";
             return JsonConversor.ConvertirAObjeto(datos);
         }
 
-        // -------------------------------------------------------------------
-        // 1. READ (Listar)
-        // -------------------------------------------------------------------
+
         [HttpPost]
         public string Listar()
         {
@@ -36,11 +36,14 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
+                if (!iAplicacionToken!.Validar(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
+                this._ProductosAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
-
-                // Llama al método Listar
-                respuesta["Entidades"] = this.iAplicacion!.Listar();
+                respuesta["Entidades"] = this._ProductosAplicacion!.Listar();
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
                 return JsonConversor.ConvertirAString(respuesta);
@@ -53,25 +56,24 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 2. READ (Buscar)
-        // -------------------------------------------------------------------
+
         [HttpPost]
-        public string Buscar()
+        public string PorNombre()
         {
             var respuesta = new Dictionary<string, object>();
             try
             {
                 var datos = ObtenerDatos();
-
-                // Extrae la entidad Productos del JSON para usarla como filtro
+                if (!iAplicacionToken!.Validar(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<Productos>(
-                    JsonConversor.ConvertirAString(datos["Entidad"]));
+                JsonConversor.ConvertirAString(datos["Entidad"]));
+                this._ProductosAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
-
-                // Llama al método Buscar. El filtro en Aplicación es por Nombre o Descripcion.
-                respuesta["Entidades"] = this.iAplicacion!.Buscar(entidad);
+                respuesta["Entidades"] = this._ProductosAplicacion!.PorNombre(entidad);
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
                 return JsonConversor.ConvertirAString(respuesta);
@@ -84,9 +86,9 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 3. CREATE (Guardar)
-        // -------------------------------------------------------------------
+
+
+
         [HttpPost]
         public string Guardar()
         {
@@ -94,17 +96,16 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-
-                // Extrae la entidad Productos
+                if (!iAplicacionToken!.Validar(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<Productos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
+                this._ProductosAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
-
-                // Llama a Guardar. La aplicación espera Id = 0.
-                entidad = this.iAplicacion!.Guardar(entidad);
-
-                // Devuelve la entidad con el nuevo Id generado por la DB.
+                entidad = this._ProductosAplicacion!.Guardar(entidad);
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -118,9 +119,8 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 4. UPDATE (Modificar)
-        // -------------------------------------------------------------------
+
+
         [HttpPost]
         public string Modificar()
         {
@@ -128,17 +128,16 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-
-                // Extrae la entidad Productos
+                if (!iAplicacionToken!.Validar(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<Productos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
+                this._ProductosAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
-
-                // Llama a Modificar. La aplicación espera Id != 0.
-                entidad = this.iAplicacion!.Modificar(entidad);
-
-                // Devuelve la entidad modificada.
+                entidad = this._ProductosAplicacion!.Modificar(entidad);
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();
@@ -152,9 +151,7 @@ namespace asp_servicios.Controllers
             }
         }
 
-        // -------------------------------------------------------------------
-        // 5. DELETE (Borrar)
-        // -------------------------------------------------------------------
+
         [HttpPost]
         public string Borrar()
         {
@@ -162,17 +159,17 @@ namespace asp_servicios.Controllers
             try
             {
                 var datos = ObtenerDatos();
-
-                // Extrae la entidad Productos
+                if (!iAplicacionToken!.Validar(datos))
+                {
+                    respuesta["Error"] = "lbNoAutenticacion";
+                    return JsonConversor.ConvertirAString(respuesta);
+                }
                 var entidad = JsonConversor.ConvertirAObjeto<Productos>(
                     JsonConversor.ConvertirAString(datos["Entidad"]));
+                this._ProductosAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                this.iAplicacion!.Configurar(Configuracion.ObtenerValor("StringConexion"));
 
-                // Llama a Borrar. La aplicación espera Id != 0.
-                entidad = this.iAplicacion!.Borrar(entidad);
-
-                // Devuelve la entidad borrada.
+                entidad = this._ProductosAplicacion!.Borrar(entidad);
                 respuesta["Entidad"] = entidad!;
                 respuesta["Respuesta"] = "OK";
                 respuesta["Fecha"] = DateTime.Now.ToString();

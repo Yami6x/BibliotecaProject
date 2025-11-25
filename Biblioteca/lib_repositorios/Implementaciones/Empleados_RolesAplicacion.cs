@@ -41,11 +41,19 @@ namespace lib_repositorios.Implementaciones
 
         public List<Empleados_Roles> Listar() => this.IConexion!.Empleados_Roles!.Take(20).ToList();
 
-        public List<Empleados_Roles> Buscar(Empleados_Roles? entidad) =>
-            this.IConexion!.Empleados_Roles!
-            .Where(x => x.EmpleadoId == entidad!.EmpleadoId
-                     || x.RolId == entidad!.RolId)
-            .ToList();
+        public List<Empleados_Roles> PorEmpleadoId(Empleados_Roles? entidad)
+        {
+            
+            if (entidad!.EmpleadoId == 0)
+            {
+                return this.IConexion!.Empleados_Roles!.ToList();
+            }
+
+            
+            return this.IConexion!.Empleados_Roles!
+                .Where(x => x.EmpleadoId == entidad!.EmpleadoId)                        
+                .ToList();
+        }
     }
 }
 

@@ -7,7 +7,7 @@ namespace lib_repositorios.Interfaces
     {
         void Configurar(string StringConexion);
         List<Permisos> Listar();
-        List<Permisos> Buscar(Permisos? entidad);
+        List<Permisos> PorNombre(Permisos? entidad);
         Permisos? Guardar(Permisos? entidad);
         Permisos? Modificar(Permisos? entidad);
         Permisos? Borrar(Permisos? entidad);

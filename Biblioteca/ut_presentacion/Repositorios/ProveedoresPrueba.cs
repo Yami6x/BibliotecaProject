@@ -35,7 +35,7 @@ public class ProveedoresPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Proveedores();
-        iConexion!.Proveedores!.Add(entidad);
+        iConexion!.Proveedores!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

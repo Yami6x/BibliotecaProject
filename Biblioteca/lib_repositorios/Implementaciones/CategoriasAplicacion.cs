@@ -41,7 +41,7 @@ namespace lib_repositorios.Implementaciones
 
         public List<Categorias> Listar() => this.IConexion!.Categorias!.Take(20).ToList();
 
-        public List<Categorias> Buscar(Categorias? entidad) =>
+        public List<Categorias> PorNombre(Categorias? entidad) =>
             this.IConexion!.Categorias!
             .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
             .ToList();

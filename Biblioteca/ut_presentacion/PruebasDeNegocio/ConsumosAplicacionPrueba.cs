@@ -37,7 +37,7 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
             entidad = EntidadesNucleo.Consumos();
-            iConexion!.Consumos!.Add(entidad);
+            iConexion!.Consumos!.Add(entidad!);
             iConexion!.SaveChanges();
             return true;
         }

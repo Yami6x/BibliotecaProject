@@ -41,10 +41,17 @@ namespace lib_repositorios.Implementaciones
 
         public List<Empleados> Listar() => this.IConexion!.Empleados!.Take(20).ToList();
 
-        public List<Empleados> Buscar(Empleados? entidad) =>
-            this.IConexion!.Empleados!
-            .Where(x => x.Nombre!.Contains(entidad!.Nombre!)
-                     || x.Apellido!.Contains(entidad!.Apellido!))
-            .ToList();
+        public List<Empleados> PorCargo(Empleados? entidad)
+        {
+            if (string.IsNullOrEmpty(entidad!.Nombre) && string.IsNullOrEmpty(entidad!.Apellido))
+            {
+                return this.IConexion!.Empleados!.ToList();
+            }
+
+            return this.IConexion!.Empleados!
+                .Where(x => x.Nombre!.Contains(entidad!.Nombre!))
+                         
+                .ToList();
+        }
     }
 }

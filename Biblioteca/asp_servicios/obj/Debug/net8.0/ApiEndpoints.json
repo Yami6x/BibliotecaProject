@@ -1,5 +1,105 @@
 [
   {
+    "ContainingType": "asp_servicios.Controllers.AuditoriasController",
+    "Method": "Borrar",
+    "RelativePath": "Auditorias/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.AuditoriasController",
+    "Method": "Buscar",
+    "RelativePath": "Auditorias/Buscar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.AuditoriasController",
+    "Method": "Guardar",
+    "RelativePath": "Auditorias/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.AuditoriasController",
+    "Method": "Listar",
+    "RelativePath": "Auditorias/Listar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.AuditoriasController",
+    "Method": "Modificar",
+    "RelativePath": "Auditorias/Modificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "asp_servicios.Controllers.AutoresController",
     "Method": "Borrar",
     "RelativePath": "Autores/Borrar",
@@ -80,9 +180,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.CategoriasController",
-    "Method": "Borrar",
-    "RelativePath": "Categorias/Borrar",
+    "ContainingType": "asp_servicios.Controllers.AutoresController",
+    "Method": "PorNombre",
+    "RelativePath": "Autores/PorNombre",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -101,8 +201,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.CategoriasController",
-    "Method": "Buscar",
-    "RelativePath": "Categorias/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Categorias/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -180,9 +280,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.ConsumosController",
-    "Method": "Borrar",
-    "RelativePath": "Consumos/Borrar",
+    "ContainingType": "asp_servicios.Controllers.CategoriasController",
+    "Method": "PorNombre",
+    "RelativePath": "Categorias/PorNombre",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -201,8 +301,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.ConsumosController",
-    "Method": "Buscar",
-    "RelativePath": "Consumos/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Consumos/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -263,6 +363,26 @@
     "ContainingType": "asp_servicios.Controllers.ConsumosController",
     "Method": "Modificar",
     "RelativePath": "Consumos/Modificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.ConsumosController",
+    "Method": "PorIdProducto",
+    "RelativePath": "Consumos/PorIdProducto",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -360,9 +480,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.EmpleadosController",
-    "Method": "Borrar",
-    "RelativePath": "Empleados/Borrar",
+    "ContainingType": "asp_servicios.Controllers.Empleados_RolesController",
+    "Method": "PorEmpleadoId",
+    "RelativePath": "Empleados_Roles/PorEmpleadoId",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -381,8 +501,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.EmpleadosController",
-    "Method": "Buscar",
-    "RelativePath": "Empleados/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Empleados/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -460,9 +580,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.IdiomasController",
-    "Method": "Borrar",
-    "RelativePath": "Idiomas/Borrar",
+    "ContainingType": "asp_servicios.Controllers.EmpleadosController",
+    "Method": "PorCargo",
+    "RelativePath": "Empleados/PorCargo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -481,8 +601,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.IdiomasController",
-    "Method": "Buscar",
-    "RelativePath": "Idiomas/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Idiomas/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -560,9 +680,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.LibrosController",
-    "Method": "Borrar",
-    "RelativePath": "Libros/Borrar",
+    "ContainingType": "asp_servicios.Controllers.IdiomasController",
+    "Method": "PorCodigo",
+    "RelativePath": "Idiomas/PorCodigo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -581,8 +701,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.LibrosController",
-    "Method": "Buscar",
-    "RelativePath": "Libros/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Libros/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -660,9 +780,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.MiembrosController",
-    "Method": "Borrar",
-    "RelativePath": "Miembros/Borrar",
+    "ContainingType": "asp_servicios.Controllers.LibrosController",
+    "Method": "PorTitulo",
+    "RelativePath": "Libros/PorTitulo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -681,8 +801,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.MiembrosController",
-    "Method": "Buscar",
-    "RelativePath": "Miembros/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Miembros/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -760,9 +880,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.MultasController",
-    "Method": "Borrar",
-    "RelativePath": "Multas/Borrar",
+    "ContainingType": "asp_servicios.Controllers.MiembrosController",
+    "Method": "PorNombre",
+    "RelativePath": "Miembros/PorNombre",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -781,8 +901,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.MultasController",
-    "Method": "Buscar",
-    "RelativePath": "Multas/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Multas/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -860,9 +980,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.PagosController",
-    "Method": "Borrar",
-    "RelativePath": "Pagos/Borrar",
+    "ContainingType": "asp_servicios.Controllers.MultasController",
+    "Method": "PorIdPrestamo",
+    "RelativePath": "Multas/PorIdPrestamo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -881,8 +1001,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.PagosController",
-    "Method": "Buscar",
-    "RelativePath": "Pagos/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Pagos/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -960,9 +1080,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.PermisosController",
-    "Method": "Borrar",
-    "RelativePath": "Permisos/Borrar",
+    "ContainingType": "asp_servicios.Controllers.PagosController",
+    "Method": "PorIdMulta",
+    "RelativePath": "Pagos/PorIdMulta",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -981,8 +1101,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.PermisosController",
-    "Method": "Buscar",
-    "RelativePath": "Permisos/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Permisos/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1060,9 +1180,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.PrestamosController",
-    "Method": "Borrar",
-    "RelativePath": "Prestamos/Borrar",
+    "ContainingType": "asp_servicios.Controllers.PermisosController",
+    "Method": "PorNombre",
+    "RelativePath": "Permisos/PorNombre",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1081,8 +1201,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.PrestamosController",
-    "Method": "Buscar",
-    "RelativePath": "Prestamos/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Prestamos/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1160,9 +1280,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.ProductosController",
-    "Method": "Borrar",
-    "RelativePath": "Productos/Borrar",
+    "ContainingType": "asp_servicios.Controllers.PrestamosController",
+    "Method": "PorIdLibro",
+    "RelativePath": "Prestamos/PorIdLibro",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1181,8 +1301,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.ProductosController",
-    "Method": "Buscar",
-    "RelativePath": "Productos/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Productos/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1260,9 +1380,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
-    "Method": "Borrar",
-    "RelativePath": "Proveedores/Borrar",
+    "ContainingType": "asp_servicios.Controllers.ProductosController",
+    "Method": "PorNombre",
+    "RelativePath": "Productos/PorNombre",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1281,8 +1401,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.ProveedoresController",
-    "Method": "Buscar",
-    "RelativePath": "Proveedores/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Proveedores/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1360,9 +1480,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.ReservasController",
-    "Method": "Borrar",
-    "RelativePath": "Reservas/Borrar",
+    "ContainingType": "asp_servicios.Controllers.ProveedoresController",
+    "Method": "PorNombre",
+    "RelativePath": "Proveedores/PorNombre",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1381,8 +1501,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.ReservasController",
-    "Method": "Buscar",
-    "RelativePath": "Reservas/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Reservas/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1460,9 +1580,9 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.RolesController",
-    "Method": "Borrar",
-    "RelativePath": "Roles/Borrar",
+    "ContainingType": "asp_servicios.Controllers.ReservasController",
+    "Method": "PorIdLibro",
+    "RelativePath": "Reservas/PorIdLibro",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1481,8 +1601,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.RolesController",
-    "Method": "Buscar",
-    "RelativePath": "Roles/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Roles/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1560,9 +1680,129 @@
     ]
   },
   {
-    "ContainingType": "asp_servicios.Controllers.UsuariosController",
+    "ContainingType": "asp_servicios.Controllers.RolesController",
+    "Method": "PorNombre",
+    "RelativePath": "Roles/PorNombre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.RolesPermisosController",
     "Method": "Borrar",
-    "RelativePath": "Usuarios/Borrar",
+    "RelativePath": "RolesPermisos/Borrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.RolesPermisosController",
+    "Method": "Guardar",
+    "RelativePath": "RolesPermisos/Guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.RolesPermisosController",
+    "Method": "Listar",
+    "RelativePath": "RolesPermisos/Listar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.RolesPermisosController",
+    "Method": "Modificar",
+    "RelativePath": "RolesPermisos/Modificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.RolesPermisosController",
+    "Method": "PorIdRol",
+    "RelativePath": "RolesPermisos/PorIdRol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.TokenController",
+    "Method": "Llave",
+    "RelativePath": "Token/Llave",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1581,8 +1821,8 @@
   },
   {
     "ContainingType": "asp_servicios.Controllers.UsuariosController",
-    "Method": "Buscar",
-    "RelativePath": "Usuarios/Buscar",
+    "Method": "Borrar",
+    "RelativePath": "Usuarios/Borrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -1643,6 +1883,26 @@
     "ContainingType": "asp_servicios.Controllers.UsuariosController",
     "Method": "Modificar",
     "RelativePath": "Usuarios/Modificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "asp_servicios.Controllers.UsuariosController",
+    "Method": "PorTipoUsuario",
+    "RelativePath": "Usuarios/PorTipoUsuario",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

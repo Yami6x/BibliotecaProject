@@ -37,7 +37,7 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
             entidad = EntidadesNucleo.Pagos();
-            iConexion!.Pagos!.Add(entidad);
+            iConexion!.Pagos!.Add(entidad!);
             iConexion!.SaveChanges();
             return true;
         }

@@ -41,10 +41,16 @@ namespace lib_repositorios.Implementaciones
 
         public List<Reservas> Listar() => this.IConexion!.Reservas!.Take(20).ToList();
 
-        public List<Reservas> Buscar(Reservas? entidad) =>
-            this.IConexion!.Reservas!
-            .Where(x => x.IdLibro == entidad!.IdLibro
-                     || x.IdMiembro == entidad!.IdMiembro)
-            .ToList();
+        public List<Reservas> PorIdLibro(Reservas? entidad)
+        {
+            if (entidad!.IdLibro == 0)
+            {
+                return this.IConexion!.Reservas!.ToList();
+            }
+
+            return this.IConexion!.Reservas!
+                .Where(x => x.IdLibro == entidad!.IdLibro)
+                .ToList();
+        }
     }
 }

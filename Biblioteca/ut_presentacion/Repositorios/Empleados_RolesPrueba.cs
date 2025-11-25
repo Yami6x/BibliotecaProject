@@ -35,7 +35,7 @@ public class Empleados_RolesPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Empleados_Roles();
-        iConexion!.Empleados_Roles!.Add(entidad);
+        iConexion!.Empleados_Roles!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

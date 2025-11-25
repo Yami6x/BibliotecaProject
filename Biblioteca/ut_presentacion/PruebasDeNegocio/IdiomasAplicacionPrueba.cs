@@ -37,7 +37,7 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
             entidad = EntidadesNucleo.Idiomas();
-            iConexion!.Idiomas!.Add(entidad);
+            iConexion!.Idiomas!.Add(entidad!);
             iConexion!.SaveChanges();
             return true;
         }

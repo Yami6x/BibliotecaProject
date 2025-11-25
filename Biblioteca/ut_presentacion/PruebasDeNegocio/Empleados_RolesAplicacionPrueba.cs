@@ -37,14 +37,14 @@ namespace ut_presentacion.Repositorios
         public bool Guardar()
         {
             entidad = EntidadesNucleo.Empleados_Roles();
-            iConexion!.Empleados_Roles!.Add(entidad);
+            iConexion!.Empleados_Roles!.Add(entidad!);
             iConexion!.SaveChanges();
             return true;
         }
 
         public bool Modificar()
         {
-            // por ejemplo cambiamos el RolId
+            
             entidad!.RolId = entidad!.RolId + 1;
             var entry = iConexion!.Entry<Empleados_Roles>(entidad);
             entry.State = EntityState.Modified;

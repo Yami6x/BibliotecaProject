@@ -39,12 +39,19 @@ namespace lib_repositorios.Implementaciones
             return entidad;
         }
 
-        public List<Prestamos> Listar() => this.IConexion!.Prestamos!.Take(20).ToList();
+        public List<Prestamos> Listar()
+            => this.IConexion!.Prestamos!.Take(20).ToList();
 
-        public List<Prestamos> Buscar(Prestamos? entidad) =>
-            this.IConexion!.Prestamos!
-            .Where(x => x.IdLibro == entidad!.IdLibro
-                     || x.IdMiembro == entidad!.IdMiembro)
-            .ToList();
+        public List<Prestamos> PorIdLibro(Prestamos? entidad)
+        {
+            if (entidad!.IdLibro == 0)
+            {
+                return this.IConexion!.Prestamos!.ToList();
+            }
+
+            return this.IConexion!.Prestamos!
+                .Where(x => x.IdLibro == entidad!.IdLibro)
+                .ToList();
+        }
     }
 }

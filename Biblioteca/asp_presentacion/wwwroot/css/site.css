@@ -1,0 +1,713 @@
+/* ===== VARIABLES Y COLORES TEMA BIBLIOTECA ===== */
+:root {
+    --primary-color: #8B4513;
+    --secondary-color: #D4A574;
+    --accent-color: #C19A6B;
+    --dark-brown: #5C4033;
+    --light-cream: #F5F5DC;
+    --white: #FFFFFF;
+    --text-dark: #2C2C2C;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* ===== ESTILOS GENERALES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #F5F5DC 0%, #E8DCC4 100%);
+    color: var(--text-dark);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    a:hover {
+        color: var(--dark-brown);
+        text-decoration: none;
+    }
+
+/* ===== NAVBAR ===== */
+header {
+    flex-shrink: 0;
+}
+
+.navbar {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-brown) 100%) !important;
+    box-shadow: 0 4px 12px var(--shadow);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: var(--white) !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid var(--white);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+    .navbar-brand:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* Botón del menú dropdown */
+.dropdown .btn-secondary {
+    background: var(--secondary-color);
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    color: var(--dark-brown);
+    transition: all 0.3s ease;
+}
+
+    .dropdown .btn-secondary:hover,
+    .dropdown .btn-secondary:focus {
+        background: var(--accent-color);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+/* Menú dropdown */
+.dropdown-menu {
+    background: var(--white);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px var(--shadow);
+    padding: 0.5rem 0;
+    max-height: 500px;
+    overflow-y: auto;
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    padding: 0.7rem 1.5rem;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+    .dropdown-item:hover {
+        background: var(--light-cream);
+        border-left-color: var(--primary-color);
+        transform: translateX(5px);
+    }
+
+    .dropdown-item .nav-link {
+        color: var(--text-dark) !important;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .dropdown-item:hover .nav-link {
+        color: var(--primary-color) !important;
+    }
+
+/* ===== BOTONES ===== */
+.btn-primary {
+    color: var(--white);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-brown) 100%);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+.btn-secondary {
+    background: var(--secondary-color);
+    color: var(--dark-brown);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+    .btn-secondary:hover {
+        background: var(--accent-color);
+        transform: translateY(-2px);
+    }
+
+/* Grupo de botones en las páginas */
+.btn-group .btn,
+button[type="submit"] {
+    margin: 0.3rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.container {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 24px var(--shadow);
+}
+
+main {
+    min-height: 60vh;
+}
+
+/* ===== TABLAS ===== */
+.tb_data {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px var(--shadow);
+    border-collapse: collapse;
+}
+
+    .tb_data thead {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-brown) 100%);
+        color: var(--white);
+    }
+
+        .tb_data thead th {
+            padding: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+        }
+
+    .tb_data tbody tr {
+        transition: all 0.3s ease;
+        border-bottom: 1px solid #E8DCC4;
+    }
+
+        .tb_data tbody tr:hover {
+            background: var(--light-cream);
+            transform: scale(1.01);
+            box-shadow: 0 2px 8px var(--shadow);
+        }
+
+    .tb_data tbody td {
+        padding: 1rem;
+        vertical-align: middle;
+    }
+
+/* ===== FORMULARIOS ===== */
+.cts_forms {
+    width: 100%;
+    padding: 1.5rem;
+    background: var(--white);
+    border-radius: 12px;
+}
+
+.form-control {
+    border: 2px solid #E8DCC4;
+    border-radius: 8px;
+    padding: 0.7rem;
+    transition: all 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 0.2rem rgba(139, 69, 19, 0.25);
+        outline: none;
+    }
+
+.form-label {
+    font-weight: 600;
+    color: var(--dark-brown);
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* ===== PÁGINA DE INICIO ===== */
+.welcome-section {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+    .welcome-section h1 {
+        color: var(--primary-color);
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px var(--shadow);
+    }
+
+    .welcome-section p {
+        font-size: 1.3rem;
+        color: var(--text-dark);
+        margin-bottom: 2rem;
+    }
+
+.library-icon {
+    font-size: 5rem;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+/* ===== CARDS ===== */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+.card-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-brown) 100%);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+    .card-header h5 {
+        color: var(--white) !important;
+        margin: 0;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+/* ===== TÍTULOS ===== */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== CONTAINERS DE VENTANAS - CORREGIDO ===== */
+.containers_vn {
+    height: 70vh;
+    max-height: 70vh;
+    width: 100%;
+    overflow-y: auto !important;
+    overflow-x: auto;
+    display: block;
+    padding: 1rem;
+    background: var(--white);
+    border-radius: 12px;
+}
+
+    /* Scrollbar personalizado */
+    .containers_vn::-webkit-scrollbar,
+    .dropdown-menu::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .containers_vn::-webkit-scrollbar-track,
+    .dropdown-menu::-webkit-scrollbar-track {
+        background: var(--light-cream);
+        border-radius: 5px;
+    }
+
+    .containers_vn::-webkit-scrollbar-thumb,
+    .dropdown-menu::-webkit-scrollbar-thumb {
+        background: var(--secondary-color);
+        border-radius: 5px;
+    }
+
+        .containers_vn::-webkit-scrollbar-thumb:hover,
+        .dropdown-menu::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-color);
+        }
+
+/* Para Firefox */
+.containers_vn {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-color) var(--light-cream);
+}
+
+/* ===== ACCIONES ===== */
+.cl_actions {
+    width: 170px;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+    .cl_actions button {
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        font-size: 0.9rem;
+    }
+
+/* ===== POPUPS ===== */
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp_inner {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.pp_del_inner, .pp_ms_inner {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+.containers_em {
+    height: 250px;
+    width: 100%;
+    overflow: auto;
+    display: block;
+    padding: 1rem;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    flex-shrink: 0;
+    width: 100%;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-brown) 100%);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 -4px 12px var(--shadow);
+    z-index: 100;
+}
+
+    .footer a {
+        color: var(--secondary-color);
+        font-weight: 600;
+    }
+
+        .footer a:hover {
+            color: var(--white);
+        }
+
+/* ===== RESPONSIVE ===== */
+.cl_hidden {
+    display: normal;
+}
+
+@media (max-width: 950px) {
+    .cl_hidden {
+        display: none;
+    }
+
+    .welcome-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .cl_actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tb_data {
+        font-size: 0.85rem;
+    }
+
+    .btn-group .btn {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+/* ===== ANIMACIONES ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container,
+.card {
+    animation: fadeIn 0.5s ease;
+}
+
+/* ===== UTILIDADES ===== */
+.border-top {
+    border-top: 1px solid var(--secondary-color);
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem var(--shadow);
+}
+
+.text-muted {
+    color: var(--secondary-color) !important;
+}
+
+/* ===== BADGES Y ESTADOS ===== */
+.badge {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.badge-primary {
+    background: var(--primary-color);
+}
+
+.badge-secondary {
+    background: var(--secondary-color);
+    color: var(--dark-brown);
+}
+
+/* ===== ALERTAS ===== */
+.alert {
+    border: none;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid;
+}
+
+.alert-success {
+    background: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+}
+
+.alert-danger {
+    background: #f8d7da;
+    border-left-color: #dc3545;
+    color: #721c24;
+}
+
+.alert-warning {
+    background: #fff3cd;
+    border-left-color: #ffc107;
+    color: #856404;
+}
+
+.alert-info {
+    background: #d1ecf1;
+    border-left-color: #17a2b8;
+    color: #0c5460;
+}
+
+/* ===== TABLA CON SCROLL (ALTERNATIVA) ===== */
+.tabla-scroll {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #E8DCC4;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+    .tabla-scroll table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 0;
+    }
+
+    .tabla-scroll thead {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+        .tabla-scroll thead th {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-brown) 100%);
+            color: var(--white);
+            padding: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+        }
+
+    .tabla-scroll tbody tr {
+        border-bottom: 1px solid #E8DCC4;
+        transition: all 0.3s ease;
+    }
+
+        .tabla-scroll tbody tr:hover {
+            background: var(--light-cream);
+            transform: scale(1.01);
+        }
+
+    .tabla-scroll tbody td {
+        padding: 1rem;
+        vertical-align: middle;
+    }
+
+    /* Personalizar scrollbar de la tabla */
+    .tabla-scroll::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .tabla-scroll::-webkit-scrollbar-track {
+        background: var(--light-cream);
+        border-radius: 10px;
+    }
+
+    .tabla-scroll::-webkit-scrollbar-thumb {
+        background: var(--secondary-color);
+        border-radius: 10px;
+    }
+
+        .tabla-scroll::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-color);
+        }
+
+/* Para Firefox */
+.tabla-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-color) var(--light-cream);
+}
+
+/* ===== CORRECCIÓN PARA TABLAS CON CLASES DE BOOTSTRAP ===== */
+/* Forzar estilos para tablas con múltiples clases */
+.containers_vn table.tb_data {
+    display: table !important;
+    width: 100% !important;
+}
+
+.containers_vn {
+    overflow-y: auto !important;
+    overflow-x: auto !important;
+}
+
+    /* Asegurar que las clases de Bootstrap no interfieran */
+    .containers_vn .table {
+        margin-bottom: 0 !important;
+    }
+
+        .containers_vn .table thead th {
+            border-bottom: none !important;
+        }
+
+    .containers_vn .table-bordered {
+        border: none !important;
+    }
+
+        .containers_vn .table-bordered th,
+        .containers_vn .table-bordered td {
+            border: none !important;
+            border-bottom: 1px solid #E8DCC4 !important;
+        }
+
+    /* ===== CORRECCIÓN PARA FORMULARIOS LARGOS ===== */
+    /* Permitir scroll en formularios dentro de containers_vn */
+    .containers_vn.panel {
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        max-height: 70vh !important;
+    }
+
+    /* Asegurar que los formularios dentro del contenedor sean visibles */
+    .containers_vn .form-group {
+        margin-bottom: 1.5rem;
+        clear: both;
+        overflow: hidden;
+    }
+
+    /* Mejorar espaciado en formularios */
+    .containers_vn .cts_forms {
+        margin-bottom: 1rem;
+    }
+
+    /* Asegurar que el contenido del formulario no se corte */
+    .containers_vn > div {
+        padding-bottom: 2rem;
+    }

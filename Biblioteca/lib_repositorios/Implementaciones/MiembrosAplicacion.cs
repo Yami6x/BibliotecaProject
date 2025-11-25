@@ -41,7 +41,7 @@ namespace lib_repositorios.Implementaciones
 
         public List<Miembros> Listar() => this.IConexion!.Miembros!.Take(20).ToList();
 
-        public List<Miembros> Buscar(Miembros? entidad) =>
+        public List<Miembros> PorNombre(Miembros? entidad) =>
             this.IConexion!.Miembros!
             .Where(x => x.Nombre!.Contains(entidad!.Nombre!)
                      || x.Apellido!.Contains(entidad!.Apellido!))

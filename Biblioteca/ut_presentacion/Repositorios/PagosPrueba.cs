@@ -35,7 +35,7 @@ public class PagosPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Pagos();
-        iConexion!.Pagos!.Add(entidad);
+        iConexion!.Pagos!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

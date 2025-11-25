@@ -41,10 +41,17 @@ namespace lib_repositorios.Implementaciones
 
         public List<Pagos> Listar() => this.IConexion!.Pagos!.Take(20).ToList();
 
-        public List<Pagos> Buscar(Pagos? entidad) =>
-            this.IConexion!.Pagos!
-            .Where(x => x.MetodoPago!.Contains(entidad!.MetodoPago!))
-            .ToList();
+        public List<Pagos> PorIdMulta(Pagos? entidad)
+        {
+            if (string.IsNullOrEmpty(entidad!.MetodoPago))
+            {
+                return this.IConexion!.Pagos!.ToList();
+            }
+
+            return this.IConexion!.Pagos!
+                .Where(x => x.MetodoPago!.Contains(entidad!.MetodoPago!))
+                .ToList();
+        }
     }
 }
 

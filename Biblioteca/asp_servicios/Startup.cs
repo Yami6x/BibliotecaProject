@@ -20,10 +20,10 @@ namespace asp_servicios
             services.Configure<IISServerOptions>(x => { x.AllowSynchronousIO = true; });
             services.AddControllers();
             services.AddEndpointsApiExplorer();
-            //services.AddSwaggerGen();
-            // Repositorios
+            
             services.AddScoped<IConexion, Conexion>();
             services.AddScoped<IAutoresAplicacion, AutoresAplicacion>();
+            services.AddScoped<IAuditoriasAplicacion, AuditoriasAplicacion>();
             services.AddScoped<ICategoriasAplicacion, CategoriasAplicacion>();
             services.AddScoped<IConsumosAplicacion, ConsumosAplicacion>();
             services.AddScoped<IEmpleadosAplicacion, EmpleadosAplicacion>();
@@ -39,7 +39,9 @@ namespace asp_servicios
             services.AddScoped<IProveedoresAplicacion, ProveedoresAplicacion>();
             services.AddScoped<IReservasAplicacion, ReservasAplicacion>();
             services.AddScoped<IUsuariosAplicacion, UsuariosAplicacion>();
+            services.AddScoped<IRolesPermisosAplicacion, RolesPermisosAplicacion>();
             services.AddScoped<IPermisosAplicacion, PermisosAplicacion>();
+            services.AddScoped<lib_repositorios.Implementaciones.TokenAplicacion>();
 
 
 
@@ -49,8 +51,7 @@ namespace asp_servicios
         {
             if (env.IsDevelopment())
             {
-                //app.UseSwagger();
-                //app.UseSwaggerUI();
+               
             }
             app.UseHttpsRedirection();
             app.UseAuthorization();

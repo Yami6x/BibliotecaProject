@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\nucleo\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_presentacion\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\implementaciones\\permisosaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\implementaciones\\permisosaplicaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\interfaces\\ipermisosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\interfaces\\ipermisosaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_dominio\\entidades\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_servicios\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D041AC9-9347-4FAD-82FC-A47D5EC1ABFD}|asp_servicios\\asp_servicios.csproj|solutionrelative:asp_servicios\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CA00005-AC31-4AF7-A265-05F4F440323A}|lib_dominio\\lib_dominio.csproj|solutionrelative:lib_dominio\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{93820044-6B58-422C-81A0-E61A077985E0}|lib_repositorios\\lib_repositorios.csproj|solutionrelative:lib_repositorios\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|c:\\users\\personal\\desktop\\bibliotecaproject\\biblioteca\\asp_presentacion\\pages\\ventanas\\libros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88CD2E7B-EDA8-4F2B-AF70-960CB14C531B}|asp_presentacion\\asp_presentacion.csproj|solutionrelative:asp_presentacion\\pages\\ventanas\\libros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Configuracion.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Nucleo\\Configuracion.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Nucleo\\Configuracion.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Nucleo\\Configuracion.cs",
-              "RelativeToolTip": "asp_servicios\\Nucleo\\Configuracion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T04:40:57.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Script.sql ",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Script.sql",
-              "RelativeDocumentMoniker": "lib_repositorios\\Script.sql",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Script.sql",
-              "RelativeToolTip": "lib_repositorios\\Script.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-01T04:24:51.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Permisos.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Permisos.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Permisos.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Permisos.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Permisos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T04:19:50.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Roles.cs",
-              "RelativeDocumentMoniker": "lib_dominio\\Entidades\\Roles.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_dominio\\Entidades\\Roles.cs",
-              "RelativeToolTip": "lib_dominio\\Entidades\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T04:19:43.169Z",
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-25T03:38:03.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IPermisosAplicacion.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
-              "RelativeToolTip": "lib_repositorios\\Interfaces\\IPermisosAplicacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T03:59:08.825Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAwGwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T03:10:37.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Libros.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Ventanas\\Libros.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Ventanas\\Libros.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Ventanas\\Libros.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Ventanas\\Libros.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T03:10:14.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "asp_presentacion\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\Pages\\Index.cshtml",
+              "RelativeToolTip": "asp_presentacion\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAwAUBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T03:05:01.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PermisosAplicaciones.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
-              "RelativeDocumentMoniker": "lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
-              "RelativeToolTip": "lib_repositorios\\Implementaciones\\PermisosAplicaciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T03:58:58.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PermisosController.cs",
-              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Controllers\\PermisosController.cs",
-              "RelativeDocumentMoniker": "asp_servicios\\Controllers\\PermisosController.cs",
-              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_servicios\\Controllers\\PermisosController.cs",
-              "RelativeToolTip": "asp_servicios\\Controllers\\PermisosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T03:55:10.149Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "asp_presentacion\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Personal\\Desktop\\BibliotecaProject\\Biblioteca\\asp_presentacion\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "asp_presentacion\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKECAAAAAAAAAAAswLsCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-25T02:56:28.893Z",
               "EditorCaption": ""
             }
           ]

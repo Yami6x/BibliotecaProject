@@ -35,7 +35,7 @@ public class PrestamosPrueba
     public bool Guardar()
     {
         entidad = EntidadesNucleo.Prestamos();
-        iConexion!.Prestamos!.Add(entidad);
+        iConexion!.Prestamos!.Add(entidad!);
         iConexion!.SaveChanges();
         return true;
     }

@@ -81,7 +81,6 @@ C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\n
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\asp_serv.1BB33DF7.Up2Date
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\asp_servicios.dll
 C:\Users\Personal\Desktop\BibliotecaProject\Biblioteca\asp_servicios\obj\Debug\net8.0\refint\asp_servicios.dll

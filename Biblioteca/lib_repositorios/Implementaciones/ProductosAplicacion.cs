@@ -41,7 +41,7 @@ namespace lib_repositorios.Implementaciones
 
         public List<Productos> Listar() => this.IConexion!.Productos!.Take(20).ToList();
 
-        public List<Productos> Buscar(Productos? entidad) =>
+        public List<Productos> PorNombre(Productos? entidad) =>
             this.IConexion!.Productos!
             .Where(x => x.Nombre!.Contains(entidad!.Nombre!)
                      || x.Descripcion!.Contains(entidad!.Descripcion!))

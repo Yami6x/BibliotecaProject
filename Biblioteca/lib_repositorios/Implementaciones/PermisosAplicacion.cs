@@ -23,7 +23,7 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.Id != 0)
+            if (entidad.PermisoId != 0)
                 throw new Exception("lbYaSeGuardo");
 
             this.IConexion!.Permisos!.Add(entidad);
@@ -35,7 +35,7 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.Id == 0)
+            if (entidad.PermisoId == 0)
                 throw new Exception("lbNoSeGuardo");
 
             var entry = this.IConexion!.Entry(entidad);
@@ -48,7 +48,7 @@ namespace lib_repositorios.Implementaciones
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
-            if (entidad.Id == 0)
+            if (entidad.PermisoId == 0)
                 throw new Exception("lbNoSeGuardo");
 
             this.IConexion!.Permisos!.Remove(entidad);
@@ -59,23 +59,28 @@ namespace lib_repositorios.Implementaciones
         public List<Permisos> Listar()
         {
             return this.IConexion!.Permisos!
-                .Include(p => p.Rol)
+                .Include(p => p.Nombre)
                 .Take(20)
                 .ToList();
         }
 
-        public List<Permisos> Buscar(Permisos? entidad)
+        public List<Permisos> PorNombre(Permisos? entidad)
         {
             if (entidad == null)
                 throw new Exception("lbFaltaInformacion");
 
+            if (string.IsNullOrEmpty(entidad.Nombre) && string.IsNullOrEmpty(entidad.Descripcion))
+            {
+                return this.IConexion!.Permisos!.ToList();
+            }
+
             return this.IConexion!.Permisos!
-                .Include(p => p.Rol)
                 .Where(x =>
-                    (entidad.Nombre != null && x.Nombre.Contains(entidad.Nombre)) ||
+                    (entidad.Nombre != null && x.Nombre!.Contains(entidad.Nombre)) ||
                     (entidad.Descripcion != null && x.Descripcion!.Contains(entidad.Descripcion))
                 )
                 .ToList();
         }
     }
-}
+    }
+
